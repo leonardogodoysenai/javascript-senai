@@ -1,7 +1,3 @@
-// 0 - Golem  - Pedra
-// 1 - Togepi - Papel
-// 2 - Scizor - Tesoura
-
 function escolher() {
     let sorteio = Math.floor(Math.random() * 3);
 
@@ -49,3 +45,7 @@ function resultado(texto, computador) {
     document.getElementById("resultado").innerHTML = texto;
     document.getElementById("computador").src = "img/" + computador;
 }
+///
+///
+///
+///
